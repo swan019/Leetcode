@@ -11,8 +11,6 @@ public:
         if(ans < 0) ans *= (-1);
         
         if(ans > 180)  return 360-ans;
-    
-        cout << endl;
         return ans;
     }
 };

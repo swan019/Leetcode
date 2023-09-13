@@ -11,9 +11,9 @@ public:
                 vec[i] = vec[i-1]+1;
             }
         }
-        if(ratings[n-2] > ratings[n-1] && (vec[n-2] == vec[n-1] || vec[n-3] == vec[n-2])){
-            vec[n-2]++;
-        }
+        // if(ratings[n-2] > ratings[n-1] && (vec[n-2] == vec[n-1] || vec[n-3] == vec[n-2])){
+        //     vec[n-2]++;
+        // }
 
         for(int i = n-1; i > 0; i--){
             if(ratings[i-1]>ratings[i])

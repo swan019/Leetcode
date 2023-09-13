@@ -7,10 +7,8 @@ public:
             if(s[i] == 'L') balance++;
             else balance--;
 
-            if(balance == 0){
+            if(balance == 0)
                 ans++;
-            }
-            cout << balance << " " << endl;
 
         }
 
